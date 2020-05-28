@@ -1,0 +1,499 @@
+html, body  {
+  scroll-behavior: smooth;
+  height:100%;
+  margin:0px;
+  background-color: white;
+}
+
+/*css fot the font styles*/
+h1 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1.4;
+    letter-spacing: 3.5px;
+    text-align: center;
+}
+/*same as h1 but black*/
+h2{
+	font-size:15px;
+	color: white;
+	text-decoration: none;
+	text-transform: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 2.5px;
+	text-align: left;
+}
+
+h2:hover{
+	opacity: 0.7;
+}
+
+h3{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1.4;
+    letter-spacing: 3.5px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 2.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a:hover {
+  color: opacity: 0.7;;
+}
+
+p {
+	font-size:15px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 18px;
+	letter-spacing: 3px;
+}
+
+hr{
+  border-top: 1px solid black;
+}
+/*<!-- *****************This is the css for my navbar --> */
+.navigationdiv{
+	position: fixed;
+	background:white;
+	height: 20%;
+	width: 100%;
+	list-style: none;
+	padding-right: 60px;
+	top: 0px;
+	margin-left: -10px;
+	overflow: auto;
+	z-index: 5;
+}
+
+.logo{
+	position: fixed;
+	width:190px;
+	margin-top:20px;
+  	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 10;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.nav{
+	position: absolute;
+	width: 30%;
+	right:75px;
+	padding:0px;
+}
+.nav .current{
+	background-color: #EBEDEF;
+	/*border-radius: 20px;*/
+	padding:8px;
+}
+
+.nav li{  
+	list-style: none; 
+	padding: 20px;
+	margin-top: 30px;
+	float: left;
+	cursor: pointer;  
+
+}
+
+.nav li:hover {
+  opacity: 0.7;
+}
+
+
+/*this is css for main home page>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.bg{
+	width: 100%;
+	margin-right: -3px;
+	margin-bottom: -5px;
+	margin-top: 130px;
+}
+
+.welcome{
+	padding: 20px;
+	margin:10px;
+	margin-top:15px;
+	width: 65%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*this is css for the burgr night section>>>*/
+
+.burgernightimgdiv{
+	display:inline-block;
+	width:49%;
+	margin-top:3%;
+	height:56%;
+}
+
+.bntwo{
+	position:absolute;
+	width:31%;
+	z-index:1;
+	margin-left:16%;
+	margin-top:3%;
+}
+ /*css for burger night div*/
+.burgernightdiv{
+	display:inline-block;
+	float:right;
+	width:49%;
+	margin-top:4%;
+	height:56%;
+	text-align: left;
+}
+
+/*css for the chef image*/
+.chefdiv{
+	margin-top:0%;
+	height:60%;
+	width:85%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.chefs{
+	width:38%;
+	margin-top:0%;
+	float:right;
+	padding-right:10%;
+	padding-left:5%;
+}
+.cheftext{
+	width:49%;
+}
+
+/*css fot the button*/
+.button{
+	border:solid black 1px;
+	padding:10px;
+	margin-right:10px;
+}
+
+.button:hover{
+	opacity: 0.7;
+	border: solid grey 1px;
+}
+
+/*this is css for the big pink div*/
+.pinkdiv{
+	position: absolute;
+	margin-bottom:0px;
+	background: rgba(0, 0, 0, 0.8);;
+	height:26%;
+	width:100%;
+}
+.footerinfo{
+	position:absolute;
+	padding:40px;
+}
+.hours{
+	padding:40px;
+	font-size:12px;
+	float:right;
+	margin-top:40px;
+}
+.socialmediafooter{
+	position:absolute;
+	float:right;
+	padding:40px;
+	margin-top: -10px;
+	right: 1%;
+}
+.fa {
+	color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 4px;
+    text-align: right;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+   opacity: 0.7;
+}
+
+/*this is css for menu page>>>>>>>>>>>>>>>>>>>>*/
+.bgmenu{
+	width:100%;
+}
+.menu-right{
+	display:inline-block;
+	float: right;
+	font-weight: 600;
+}
+.menuonediv{
+	width:55%;
+	margin: 0 auto;
+	padding:40px;
+	padding-top:15%;
+	text-align: justify;
+}
+
+.menutwodiv{
+	width:55%;
+	margin: 0 auto;
+	padding:40px;
+	padding-top:5%;
+	text-align: justify;
+}
+
+/*this is css for contact page>>>>>>>>>>>>>>>>>>>>*/
+.contact{
+	height:80%;
+	margin-top:20%;
+}
+
+.map{
+	margin-top: -3%;
+	margin-left:12%;
+	filter: grayscale(100%);
+}
+.details{
+	position:absolute;
+	margin-top:-3%;
+	width:42%;
+	display:inline-block;
+	margin-left:5%;
+}
+
+/*Media queries>>>>>>>>>>>*/
+/*Media queries>>>>>>>>>>>*/
+
+@media only screen and (max-width: 1050px) {
+
+a{
+	font-size:12px;
+	font-weight: 400;
+}
+h3{
+	font-size:18px;
+}
+.nav{
+	position: absolute;
+	width: 90%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top:80px;
+	padding:0px;
+}
+.nav li{  
+	list-style: none; 
+	padding: 20px;
+	margin-top: 30px;
+	left: 10%;
+}
+
+.navigationdiv{
+	height: 25%;
+}
+
+
+.logo{
+	width:150px;
+	padding-top:5px;
+}
+
+
+}
+/*media query ends*/
+@media only screen and (max-width: 500px) {
+h3 {
+font-size:18px;
+}
+h1 {
+    font-size: 18px;
+}	
+
+h2{
+	font-size:13px;
+}
+
+a{
+font-weight: 400;
+font-size:12px;
+}
+
+p{
+	font-size:13px;
+	}
+
+.navigationdiv{
+	height: 20%;
+}
+
+.nav{
+	width: 71%;
+	right:61px;
+	padding:0px;
+	margin-top:55px;
+}
+.logo{
+	width:130px;
+	margin-top:20px;
+}
+
+.welcome{
+	width: 80%;
+	text-align:left;
+}
+.bntwo{
+	display:block;
+	width:80%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-left:0%;
+}
+.burgernightdiv{
+	display:inline-block;
+	float:left;
+	margin-left: 10%;
+	width:80%;
+	margin-top:-15%;
+	text-align: left;
+}
+.chefdiv{
+	border:solid white 1px;
+	margin-top:0%;
+	height:100%;
+	width:80%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.chefs{
+	width:100%;
+	margin-top:-45%;
+	float:right;
+	padding-bottom: 20px;
+	padding:0px;
+}
+.cheftext{
+	position:relative;
+	width:100%;
+	text-align: left;
+	margin-top:400px;
+	padding-top:20px;
+}
+
+/*footer*/
+.footerinfo{
+	padding:30px;
+}
+.hours{
+	padding:30px;
+	float:left;
+	margin-top:75px;
+}
+
+.socialmediafooter{
+	padding:30px;
+	margin-top: 60px;
+	right: 1%;
+}
+.pinkdiv{
+	height:28%;
+}
+
+/*menu*/
+.menuonediv{
+	width:80%;
+	padding-top:35%;
+}
+
+.menutwodiv{
+	width:80%;
+}
+
+/*contact deets*/
+.map{
+	width:80%;
+	height:50%;
+	margin-top: 10%;
+	margin-left:9%;
+}
+
+.details{
+	position:relative;
+	margin-top:4%;
+	width:80%;
+	display:inline-block;
+	margin-left:9%;
+}
+.mediaqhidethis{
+	display:none;
+}
+
+	} /* Media Query ENDS */
+
+	@media only screen and (max-width: 1024px) {
+
+a{
+	font-size:12px;
+	font-weight: 400;
+}
+h3{
+	font-size:18px;
+}
+.nav{
+	position: absolute;
+	width: 90%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top:80px;
+	padding:0px;
+}
+.nav li{  
+	list-style: none; 
+	padding: 20px;
+	margin-top: 30px;
+	left: 10%;
+}
+
+.navigationdiv{
+	height: 25%;
+}
+
+
+.logo{
+	width:150px;
+	padding-top:5px;
+}
+
+
+}
+/*media query ends*/
+
+
+
